@@ -13,9 +13,9 @@ public class CharacterMovement : MonoBehaviour
     [Header("Controls")]
     public InputAction move;    
     public InputAction sprint;
-    public InputAction attack;
 
     private Rigidbody2D _rb2d;
+    private Animator _anim;
     private Vector2 smoothedMoveInput;
     private Vector2 moveInputSmoothVelocity;
     private Vector2 direction;
@@ -23,6 +23,8 @@ public class CharacterMovement : MonoBehaviour
     private void Awake()
     {
         _rb2d = GetComponent<Rigidbody2D>();
+        _anim = GetComponent<Animator>();
+
         sprint.started += context => isSprint = true;
         sprint.performed += context => isSprint = true;
         sprint.canceled += context => isSprint = false;
@@ -37,15 +39,13 @@ public class CharacterMovement : MonoBehaviour
     private void OnEnable()
     {
         move.Enable();
-        sprint.Enable(); 
-        attack.Enable();
+        sprint.Enable();
     }
 
     private void OnDisable()
     {
         move.Disable();
-        sprint.Disable(); 
-        attack.Disable();
+        sprint.Disable();
     }
     private void PlayerLookCursor()
     {
