@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerCombat : MonoBehaviour
 {
-    private bool isMeleeAttack;
+    public Animator _anim;
     [Header("Stats")]
     public Transform attackPoint;
     public float baseDamage = 2f;
@@ -35,7 +35,7 @@ public class PlayerCombat : MonoBehaviour
     }
     private void MeleeAttack()
     {
-        //_anim.SetTrigger("Attack");
+        _anim.SetTrigger("Attack");
 
         Collider2D[] hitEnemies =  Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
