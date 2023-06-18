@@ -466,6 +466,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 648579910798472085, guid: f778752d9cc1dd243902a4866f4e1c63, type: 3}
   m_PrefabInstance: {fileID: 5879565494226942423}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1480354740 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 312718830503596093, guid: f778752d9cc1dd243902a4866f4e1c63, type: 3}
+  m_PrefabInstance: {fileID: 5879565494226942423}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5879565494226942423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -522,6 +527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AstroGEY
       objectReference: {fileID: 0}
+    - target: {fileID: 8094951642284489534, guid: f778752d9cc1dd243902a4866f4e1c63, type: 3}
+      propertyPath: _anim
+      value: 
+      objectReference: {fileID: 1480354740}
     - target: {fileID: 8094951642284489534, guid: f778752d9cc1dd243902a4866f4e1c63, type: 3}
       propertyPath: attackRate
       value: 2
