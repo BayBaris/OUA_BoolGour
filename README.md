@@ -23,8 +23,11 @@ OYUN HİKAYESİ
 
 Sprint 1: 
 Totalde 3 sprint döneminden oluşan bu bütünde her sprint 100 puandan oluşur. 
-Sprint 1 içinde tamamlanması tahmin edilen puan: 100 Puan
-Sprint Sonu Puan: 70 //Sprint Review kısmında açıklanacaktır. 
+Sprint 1 içinde tamamlanması tahmin edilen puan: 100 Puan. 
+Sprint Sonu Puan: 70 
+Puanlama mantığı 3 başlıkta ayrı ayrı 1:mekanik animasyon veri tabanı; 2: oyun tipi, diyalog, satışa uygunluk; 3:UI, NPC ve assetler oluşumundadır. Bunlardan UI, diyalog oluşturma ve asset hazırlama konusunda ilerleme kaydedilmemiştir. 
+
+
 
 Daily Scrum toplantıları günaşırı olmak üzere; 8/11/13/15/16 Haziran tarihlerinde yapıldı. 
 Toplantı ekran görüntüleri:
