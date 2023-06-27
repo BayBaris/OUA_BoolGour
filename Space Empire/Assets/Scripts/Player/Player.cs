@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     private float _health;
     public float _maxHealth = 10;
 
+
     //private bool isAlive = true;
 
     //Equal health to maxHealth on beginning
