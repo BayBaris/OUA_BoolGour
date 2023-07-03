@@ -69,6 +69,8 @@ Sprint Sonu Puanı: 60: Coding ve sunucunun hazırlanması teslim sürele planla
 Sprint Review: Alınan kararlar:Oyunun MMO rpg şeklinde zaman kaynaklı olarak yapılamayacağı gerçeğiyle yüzleşildi, oyunun oda tabanlı olmasına karar verildi. 
 Sprint Retrospective: Oyunun çapı küçüldü, birçok özellik çıkarıldı ve takım üyelerinin en azından ellerinden geleni yapmasına (daha aktif olmalarına ve zamanlarını verimli değerlendirmelerine) karar verildi. 
 
+Product Backlog URL
+https://trello.com/b/SxWHARRC/project-u
 
 
 
