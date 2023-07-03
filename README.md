@@ -46,4 +46,29 @@ Sprint 1 Retrospective:
 Takım üyelerinin çok daha aktif çalışması gerektiğine karar verilmiştir.
 Daha hızlı çalışılması gerektiğine karar verilmiştir. 
 
+SPRINT 2
+
+Sprint içinde tamamlanması tahmin edilen puan: 100 Puan
+
+DAILY SCRUM EKRAN GÖRÜNTÜLERİ
+
+<img width="1280" alt="Ekran Resmi 2023-06-25 22 46 29" src="https://github.com/BayBaris/OUA_BoolGour/assets/120407115/41ace210-521b-43dc-aa07-d11c88cadd9f">
+
+<img width="1280" alt="Ekran Resmi 2023-07-03 03 12 07" src="https://github.com/BayBaris/OUA_BoolGour/assets/120407115/22f76523-5672-40f3-9f8f-b9e78b932194">
+
+SPRINT BOARD GİDİŞATI EKRAN GÖRÜNTÜSÜ
+<img width="1280" alt="Ekran Resmi 2023-07-03 04 19 39" src="https://github.com/BayBaris/OUA_BoolGour/assets/120407115/b5923d72-0521-4adb-9151-2a95ac2b18c7">
+
+ÜRÜN DURUMU EKRAN GÖRÜNTÜSÜ
+<img width="1280" alt="Ekran Resmi 2023-06-29 23 35 20" src="https://github.com/BayBaris/OUA_BoolGour/assets/120407115/050735a0-3c0d-4857-bfd2-6fd536ad209b">
+
+<img width="1280" alt="Ekran Resmi 2023-07-03 03 12 04" src="https://github.com/BayBaris/OUA_BoolGour/assets/120407115/1e338615-d053-44a1-81ab-d35ec5eea0f0">
+
+
+Sprint Sonu Puanı: 60: Coding ve sunucunun hazırlanması teslim sürele planlandığı şekilde gerçekleştirilemedi. Diyalog hazırlanmadı. 
+Sprint Review: Alınan kararlar:Oyunun MMO rpg şeklinde zaman kaynaklı olarak yapılamayacağı gerçeğiyle yüzleşildi, oyunun oda tabanlı olmasına karar verildi. 
+Sprint Retrospective: Oyunun çapı küçüldü, birçok özellik çıkarıldı ve takım üyelerinin en azından ellerinden geleni yapmasına (daha aktif olmalarına ve zamanlarını verimli değerlendirmelerine) karar verildi. 
+
+
+
 
