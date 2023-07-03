@@ -70,7 +70,7 @@ Sprint Sonu Puanı: 60: Coding ve sunucunun hazırlanması teslim sürele planla
 [BayBaris_DeadlineSüreleri_Güzelce Kontrol Ediniz.pdf](https://github.com/BayBaris/OUA_BoolGour/files/11939633/BayBaris_DeadlineSureleri_Guzelce.Kontrol.Ediniz.pdf)
 
 Puanlama mantığı: P.O.'nun diyalog hazırlayıp sunması; game artistin asset, ui, konsept hazırlaması, coderların da sunucu ve mekanik hazırlayıp sunmalarıdır. Bunlardan yalnızca game artistin tam ilerlemesi ve coderların inventory, pickup-drop-use item, rocket movement ve firing weapons kısmında gelişimlerini ilerletmeleri ve sunucu kısmından puan alınmıştır. 
-Sprint Notları: İlerleme ve hızı yeterli değildir. Alınan kararlar sprint reviewde yazmaktadır. 
+Sprint Notları: İlerleme ve hızı yeterli değildir. Coderlar ve game artist arasındaki sonsuz kısır döngü için iyileştirmeler düşünülmüştür. Alınan kararlar sprint reviewde yazmaktadır. 
 Sprint Review: Alınan kararlar:Oyunun MMO rpg şeklinde zaman kaynaklı olarak yapılamayacağı gerçeğiyle yüzleşildi, oyunun oda tabanlı olmasına karar verildi. 
 Sprint Retrospective: Oyunun çapı küçüldü, birçok özellik çıkarıldı ve takım üyelerinin en azından ellerinden geleni yapmasına (daha aktif olmalarına ve zamanlarını verimli değerlendirmelerine) karar verildi. 
 
