@@ -87,6 +87,7 @@ public class RegisterUIController : MonoBehaviour
 
     async void sendMail()
     {
+        Debug.Log("sendmail");
         Guid uniqueId = Guid.NewGuid();
         code = uniqueId.ToString().Substring(0, 8);
         await SendMailController.Execute(
@@ -115,7 +116,7 @@ public class RegisterUIController : MonoBehaviour
     async void Register() {
         string registerResponse = await RealmController.Instance.Register(nameText.text, emailText.text, passwordText.text);
         if(registerResponse == "") {
-            SceneManager.LoadScene("MainScene");
+            SceneManager.LoadScene("MenuScene");
         } else {
             verifyCodeErrorText.style.display = DisplayStyle.Flex;
             verifyCodeErrorText.text = registerResponse;

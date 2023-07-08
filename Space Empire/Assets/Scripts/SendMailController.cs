@@ -12,7 +12,7 @@ public class SendMailController : MonoBehaviour
         string verifyCodeText
     )
     {
-        var apiKey = "API KEY";
+        var apiKey = "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";
         var client = new SendGridClient(apiKey);
         var from = new EmailAddress("spacerealmsgame@gmail.com", "Space Realms Team");
         var subject = subjectText;

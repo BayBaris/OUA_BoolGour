@@ -17,19 +17,19 @@ public class LoginUIController : MonoBehaviour
     VisualElement enterMailPanel;
     Label enterMailErrorText;
     TextField enterMailText;
-    public Button enterMailButton;
-    public Button enterMailCancelButton;
-    public VisualElement verifyCodePanel;
-    public Label verifyCodeErrorText;
-    public Button sendAgainButton;
-    public TextField verifyCodeText;
-    public Button verifyCodeButton;
-    public Button verifyCodeCancelButton;
-    public VisualElement resetPasswordPanel;
-    public Label resetPasswordErrorText;
-    public TextField resetPasswordText;
-    public TextField resetPasswordAgainText;
-    public Button resetPasswordButton;
+    Button enterMailButton;
+    Button enterMailCancelButton;
+    VisualElement verifyCodePanel;
+    Label verifyCodeErrorText;
+    Button sendAgainButton;
+    TextField verifyCodeText;
+    Button verifyCodeButton;
+    Button verifyCodeCancelButton;
+    VisualElement resetPasswordPanel;
+    Label resetPasswordErrorText;
+    TextField resetPasswordText;
+    TextField resetPasswordAgainText;
+    Button resetPasswordButton;
 
     string code;
 
@@ -90,7 +90,7 @@ public class LoginUIController : MonoBehaviour
             );
             if (loginResponse == "")
             {
-                SceneManager.LoadScene("MainScene");
+                SceneManager.LoadScene("MenuScene");
             }
             else
             {
