@@ -65,6 +65,9 @@ public class ShipController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.CompareTag("PlayerPlanet")){
             SceneManager.LoadScene("PlayerPlanetScene");
+        }else if (other.gameObject.CompareTag("MultiPlayerPlanet"))
+        {
+            SceneManager.LoadScene("MultiPlayerPlanetScene");
         }
     }
 }

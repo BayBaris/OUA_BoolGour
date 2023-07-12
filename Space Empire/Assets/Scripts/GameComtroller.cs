@@ -7,11 +7,12 @@ public class GameComtroller : MonoBehaviour
     public GameObject minimap;
     public GameObject dialogueBox;
     public GameObject startConvertionButton;
-    bool firstLessonComplated = false;
-    void start(){
+    static readonly bool firstLessonComplated = false;
+    void Start(){
+        Debug.Log("deneme 1 2 3");
         if (!firstLessonComplated)
         {
-            dialogueBox.gameObject.SetActive(true);
+            Debug.Log(!firstLessonComplated);
             startConvertionButton.gameObject.SetActive(true);
         }
     }
