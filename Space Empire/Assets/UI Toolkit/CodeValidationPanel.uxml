@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Style.uss?fileID=7433441132597879392&amp;guid=7a8a4332de80ec642ad089b321717b75&amp;type=3#Style" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(191, 211, 255); justify-content: center; align-items: center; width: 622px;">
+        <ui:Label text="Please enter the vrify code sent to your e-mail address" display-tooltip-when-elided="true" style="margin-bottom: 15px;" />
+        <ui:TextField picking-mode="Ignore" usage-hints="MaskContainer, DynamicColor" name="verifyCodeText" style="align-self: center; justify-content: flex-end; width: 188px; margin-bottom: 2px;" />
+        <ui:Label display-tooltip-when-elided="true" name="errorText" text="Message" style="display: none; color: rgb(200, 21, 21);" />
+        <ui:Button text="Continue" display-tooltip-when-elided="true" name="continueButton" class="button-style" style="margin-bottom: 10px; margin-top: 20px;" />
+        <ui:Button text="Cancel" display-tooltip-when-elided="true" name="cancelButton" class="button-style" style="background-color: rgb(255, 255, 255); color: rgb(45, 99, 221);" />
+    </ui:VisualElement>
+</ui:UXML>
