@@ -78,4 +78,46 @@ Product Backlog URL
 https://trello.com/b/SxWHARRC/project-u
 
 
+SPRINT 3
+
+Puanlama Mantığı: Game artistin tüm ui ve assetleri hazırlayıp paylaşması, mekanik ve diğer multiplayer sağlama coderlarının da tüm oyunu bitmiş halde teslim etmesidir.
+Tahmini puan: yukarıda sayılan oyun arayüzü + mekanik + game testleri ve multiplayer sağlanışının bütününde 10+ 10+ 10'dan 30 puandır. 
+Alınan puan: 20'dir çünkü henüz mekanik ve geme test bitmemiştir. 
+
+Daily scrum screenshots:
+
+<img width="1280" alt="Ekran Resmi 2023-07-05 23 32 00" src="https://github.com/BayBaris/OUA_BoolGour/assets/120407115/eb746e24-69cd-49e6-a981-68a34db1a6ad">
+
+
+<img width="1280" alt="Ekran Resmi 2023-07-15 23 09 20" src="https://github.com/BayBaris/OUA_BoolGour/assets/120407115/3c36038e-a473-41c5-a2cc-5ee999c9034c">
+
+<img width="1280" alt="Ekran Resmi 2023-07-16 02 07 28" src="https://github.com/BayBaris/OUA_BoolGour/assets/120407115/62051e4e-8b74-4b6d-9bce-ec04d1e81b87">
+
+<img width="1280" alt="Ekran Resmi 2023-07-17 01 31 20" src="https://github.com/BayBaris/OUA_BoolGour/assets/120407115/76b32e19-6e02-4063-87c7-9950c464c473">
+
+Product Backlog URL
+https://trello.com/b/SxWHARRC/project-u
+
+Sprint Board Updates
+
+<img width="1280" alt="Ekran Resmi 2023-07-17 02 33 57" src="https://github.com/BayBaris/OUA_BoolGour/assets/120407115/63f06454-ba04-4bc0-871e-8bf0a2d9bd25">
+
+ÜRÜN DURUMU:
+
+![Ekran_goruntusu_2023-07-16_232225](https://github.com/BayBaris/OUA_BoolGour/assets/120407115/5bb464be-2193-49e2-824b-addd3b1f1ead)
+
+![Ekran_goruntusu_2023-07-16_232242](https://github.com/BayBaris/OUA_BoolGour/assets/120407115/7c91bfa5-2ba9-4151-9151-5f6554f98b47)
+
+
+![Ekran_goruntusu_2023-07-16_054342](https://github.com/BayBaris/OUA_BoolGour/assets/120407115/26d47556-b2c0-4524-abe8-ce08d75f32de)
+
+
+
+
+
+Sprint Notları: P.O Ali Rıza Kitapçı daily scrumlara katılım sağlamamıştır. Coder Barış Karakaya okulu ve stajı sebebiyle verimli çalışmamış, diğer coder Neslihan Doğan staj dolayısıyla zaman yönetiminde zorlanmış; silsile gereği Harun Yahya Akbulut da çizimleri yapmakta geç kalmıştır. Scrum Mster Ayşe Nur Çifci takımın sorunlarını dikkatle çözmüştür. 
+
+Sprint Review: Aksilikler dolayısı ile Neslihan Doğan ve Harun Yahya Akbulut'un görevin %80'ini üstlenmesine karar verilmiştir. Son dakika gezegen tasarımı, NPC, Log in ekranı vs çalışmsı devam etmektedir. 
+
+Sprint Retrospective: Takımın, en azından mezun olmaya çalışılmasına karar verilmiştir. :))))
 
