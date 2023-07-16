@@ -9,7 +9,6 @@ public class GameComtroller : MonoBehaviour
     public GameObject startConvertionButton;
     static readonly bool firstLessonComplated = false;
     void Start(){
-        Debug.Log("deneme 1 2 3");
         if (!firstLessonComplated)
         {
             Debug.Log(!firstLessonComplated);

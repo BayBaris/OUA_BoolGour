@@ -137,43 +137,112 @@ public class RealmController : MonoBehaviour
         return _playerProfile;
     }
 
-    public void IncreaseScore()
+    public void IncreaseMoney(int money)
     {
         PlayerProfile _playerProfile = GetPlayerProfile();
         if (_playerProfile != null)
         {
             _realm.Write(() =>
             {
-                _playerProfile.Score++;
+                _playerProfile.Money += money;
             });
         }
     }
 
-    public void ResetScore()
+    public void IncreaseBigMoney(int bigMoney)
     {
         PlayerProfile _playerProfile = GetPlayerProfile();
         if (_playerProfile != null)
         {
             _realm.Write(() =>
             {
-                if (_playerProfile.Score > _playerProfile.HighScore)
-                {
-                    _playerProfile.HighScore = _playerProfile.Score;
-                }
-                _playerProfile.Score = 0;
+                _playerProfile.BigMoney += bigMoney;
             });
         }
     }
 
-    public bool IsSparkBlasterEnabled()
+    public void XPosition(double x)
     {
         PlayerProfile _playerProfile = GetPlayerProfile();
-        return _playerProfile != null ? _playerProfile.SparkBlasterEnabled : false;
+        if (_playerProfile != null)
+        {
+            _realm.Write(() =>
+            {
+                _playerProfile.X = x;
+            });
+        }
     }
 
-    public bool IsCrossBlasterEnabled()
+    public void YPosition(double y)
     {
         PlayerProfile _playerProfile = GetPlayerProfile();
-        return _playerProfile != null ? _playerProfile.CrossBlasterEnabled : false;
+        if (_playerProfile != null)
+        {
+            _realm.Write(() =>
+            {
+                _playerProfile.Y = y;
+            });
+        }
     }
+
+    public void InPlanet(bool inPlanet)
+    {
+        PlayerProfile _playerProfile = GetPlayerProfile();
+        if (_playerProfile != null)
+        {
+            _realm.Write(() =>
+            {
+                _playerProfile.InPlanet = inPlanet;
+            });
+        }
+    }
+
+    public void HealtBar(int healtBar)
+    {
+        PlayerProfile _playerProfile = GetPlayerProfile();
+        if (_playerProfile != null)
+        {
+            _realm.Write(() =>
+            {
+                _playerProfile.HealtBar = healtBar;
+            });
+        }
+    }
+    
+    public void FuelBar(int fuelBar)
+    {
+        PlayerProfile _playerProfile = GetPlayerProfile();
+        if (_playerProfile != null)
+        {
+            _realm.Write(() =>
+            {
+                _playerProfile.FuelBar = fuelBar;
+            });
+        }
+    }
+
+    public void RocketLife(int rocketLife)
+    {
+        PlayerProfile _playerProfile = GetPlayerProfile();
+        if (_playerProfile != null)
+        {
+            _realm.Write(() =>
+            {
+                _playerProfile.RocketLife = rocketLife;
+            });
+        }
+    }
+
+    public void Level(int level)
+    {
+        PlayerProfile _playerProfile = GetPlayerProfile();
+        if (_playerProfile != null)
+        {
+            _realm.Write(() =>
+            {
+                _playerProfile.Level = level;
+            });
+        }
+    }
+
 }
