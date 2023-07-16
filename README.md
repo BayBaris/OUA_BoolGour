@@ -119,5 +119,5 @@ Sprint Notları: P.O Ali Rıza Kitapçı daily scrumlara katılım sağlamamış
 
 Sprint Review: Aksilikler dolayısı ile Neslihan Doğan ve Harun Yahya Akbulut'un görevin %80'ini üstlenmesine karar verilmiştir. Son dakika gezegen tasarımı, NPC, Log in ekranı vs çalışmsı devam etmektedir. 
 
-Sprint Retrospective: Takımın, en azından mezun olmaya çalışılmasına karar verilmiştir. :))))
+Sprint Retrospective: Takımın, en azından mezun olmaya çalışılmasına karar verilmiştir. Tüm ekip arkadaşlarımın çabasına ve ellerine sağlık! :))))
 
