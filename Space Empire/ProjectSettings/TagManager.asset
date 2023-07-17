@@ -8,6 +8,8 @@ TagManager:
   - PlayerPlanet
   - MultiPlayerPlanet
   - MiniMap
+  - EnemyShip
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX

@@ -13,17 +13,36 @@ public class PlayerProfile : RealmObject {
     [MapTo("email")]
     public string Email { get; set; }
 
-    [MapTo("high_score")]
-    public int HighScore { get; set; }
+    [MapTo("money")]
+    public int Money { get; set; }
 
-    [MapTo("score")]
-    public int Score { get; set; }
+    [MapTo("bigMoney")]
+    public int BigMoney { get; set; }
 
-    [MapTo("spark_blaster_enabled")]
-    public bool SparkBlasterEnabled { get; set; }
+    [MapTo("x")]
+    public double X { get; set; }
 
-    [MapTo("cross_blaster_enabled")]
-    public bool CrossBlasterEnabled { get; set; }
+    [MapTo("y")]
+    public double Y { get; set; }
+
+    [MapTo("inPlanet")]
+    public bool InPlanet { get; set; }
+
+    [MapTo("healtBar")]
+    public int HealtBar { get; set; }
+
+    [MapTo("fuelBar")]
+    public int FuelBar { get; set; }
+
+    [MapTo("rocketLife")]
+    public int RocketLife { get; set; }
+
+    [MapTo("level")]
+    public int Level { get; set; }
+
+    [MapTo("firsTutarial")]
+    public bool FirstTutarial { get; set; }
+
 
     public PlayerProfile() {}
 
@@ -31,20 +50,32 @@ public class PlayerProfile : RealmObject {
         this.UserId = userId;
         this.Name = "";
         this.Email = email;
-        this.HighScore = 0;
-        this.Score = 0;
-        this.SparkBlasterEnabled = false;
-        this.CrossBlasterEnabled = false;
+        this.Money = 0;
+        this.BigMoney = 0;
+        this.X = -5.91;
+        this.Y = -1.74;
+        this.InPlanet = false;
+        this.HealtBar = 10;
+        this.FuelBar = 10;
+        this.RocketLife = 10;
+        this.Level = 1;
+        this.FirstTutarial = false;
     }
 
     public PlayerProfile(string userId, string name, string email) {
         this.UserId = userId;
         this.Name = name;
         this.Email = email;
-        this.HighScore = 0;
-        this.Score = 0;
-        this.SparkBlasterEnabled = false;
-        this.CrossBlasterEnabled = false;
+        this.Money = 0;
+        this.BigMoney = 0;
+        this.X = -5.91;
+        this.Y = -1.74;
+        this.InPlanet = false;
+        this.HealtBar = 10;
+        this.FuelBar = 10;
+        this.RocketLife = 10;
+        this.Level = 1;
+        this.FirstTutarial = false;
     }
 
 }
