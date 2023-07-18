@@ -11,7 +11,7 @@ public class RealmController : MonoBehaviour
 {
     public static RealmController Instance;
 
-    public string RealmAppId = "space-realms-fqymh";
+    public string RealmAppId = "space-realms-hkgvx";
 
     private Realm _realm;
     private App _realmApp;
@@ -204,19 +204,19 @@ public class RealmController : MonoBehaviour
         {
             _realm.Write(() =>
             {
-                _playerProfile.HealtBar = healtBar;
+                _playerProfile.HealtBar += healtBar;
             });
         }
     }
-    
-    public void FuelBar(int fuelBar)
+
+    public void FuelBar(float fuelBar)
     {
         PlayerProfile _playerProfile = GetPlayerProfile();
         if (_playerProfile != null)
         {
             _realm.Write(() =>
             {
-                _playerProfile.FuelBar = fuelBar;
+                _playerProfile.FuelBar = (int)fuelBar;
             });
         }
     }
@@ -228,21 +228,20 @@ public class RealmController : MonoBehaviour
         {
             _realm.Write(() =>
             {
-                _playerProfile.RocketLife = rocketLife;
+                _playerProfile.RocketLife +=rocketLife;
             });
         }
     }
 
-    public void Level(int level)
+    public void IncreaseLevel()
     {
         PlayerProfile _playerProfile = GetPlayerProfile();
         if (_playerProfile != null)
         {
             _realm.Write(() =>
             {
-                _playerProfile.Level = level;
+                _playerProfile.Level++;
             });
         }
     }
-
 }

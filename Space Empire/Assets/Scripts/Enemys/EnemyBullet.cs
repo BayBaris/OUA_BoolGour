@@ -22,6 +22,9 @@ public class EnemyBullet : MonoBehaviour
     {
         // Mermi başka bir şeye çarptığında yapılacak işlemler buraya yazılabilir
         // Örneğin, düşmanı vurmak veya hasar vermek gibi
-        Destroy(gameObject); // Mermiyi yok et
+        if(other.gameObject.tag == "Ship")
+        {
+            Destroy(gameObject); // Mermiyi yok et
+        }
     }
 }

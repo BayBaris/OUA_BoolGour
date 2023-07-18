@@ -63,8 +63,11 @@ public class ShipController : MonoBehaviour
             SceneManager.LoadScene("MultiPlayerPlanetScene");
         }
 
-        if(other.tag == "EnemyShip" || other.tag == "EnemyBullet") {
-            RealmController.Instance.HealtBar(-1);
+        if(other.tag == "EnemyBullet") {
+            RealmController.Instance.RocketLife(-1);
+        }else if (other.tag == "EnemyShip" )
+        {
+            RealmController.Instance.RocketLife(-5);
         }
     }
 }

@@ -47,4 +47,14 @@ public class EnemyShipAI : MonoBehaviour
             mermiScript.AyarlaHedef(hedef);
         }
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        // Mermi başka bir şeye çarptığında yapılacak işlemler buraya yazılabilir
+        // Örneğin, düşmanı vurmak veya hasar vermek gibi
+        if(other.gameObject.tag == "Ship")
+        {
+            Destroy(gameObject); // Mermiyi yok et
+        }
+    }
 }

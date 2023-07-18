@@ -56,7 +56,7 @@ public class PlayerProfile : RealmObject {
         this.Y = -1.74;
         this.InPlanet = false;
         this.HealtBar = 10;
-        this.FuelBar = 10;
+        this.FuelBar = 100;
         this.RocketLife = 10;
         this.Level = 1;
         this.FirstTutarial = false;
@@ -72,7 +72,7 @@ public class PlayerProfile : RealmObject {
         this.Y = -1.74;
         this.InPlanet = false;
         this.HealtBar = 10;
-        this.FuelBar = 10;
+        this.FuelBar = 100;
         this.RocketLife = 10;
         this.Level = 1;
         this.FirstTutarial = false;

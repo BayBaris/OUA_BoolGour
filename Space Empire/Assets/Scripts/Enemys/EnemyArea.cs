@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShipLifeBar : MonoBehaviour
+public class EnemyArea : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,5 +14,11 @@ public class ShipLifeBar : MonoBehaviour
     void Update()
     {
         
+    }
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.gameObject.tag == "Ship")
+        {
+            MakeEnemy.Instance.DusmanUret(15);
+        }
     }
 }
